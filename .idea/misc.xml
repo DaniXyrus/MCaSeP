@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/drawable/shape_button.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/drawable/shape_rec5.xml" value="0.21614583333333334" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_account.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_add_car.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_add_motor.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_alarm.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_login.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_main.xml" value="0.21" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_menu_car.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_menu_motor.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_my_car.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_my_motor.xml" value="0.1859375" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_success_register.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/activity_welcome.xml" value="0.19927536231884058" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/main_nav_drawer.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/main_toolbar.xml" value="0.19519927536231885" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/row_car.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/layout/row_motor.xml" value="0.1911231884057971" />
+        <entry key="..\:/Users/Acer/Documents/UITM STUDIES/part 7/Intern/Coding/Android Studio/MCaSeP Car Reminder/app/src/main/res/menu/navigation_menu.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activity.myMotor">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="340dp"
+        android:layout_marginBottom="671dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_back"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="460dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtViewLogIn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" >
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtViewLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:textSize="37dp"
+        android:textColor="@color/black"
+        android:text="MY MOTORCYCLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:layout_below="@+id/txtViewLogIn"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="301dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listMotorTv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:reverseLayout="true"
+            app:stackFromEnd="true"
+            tools:listitem="@layout/row_motor" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/buttons"
+        android:layout_width="380dp"
+        android:layout_height="180dp"
+        android:gravity="center_horizontal"
+        android:paddingTop="25dp"
+        app:layout_constraintTop_toBottomOf="@+id/list"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/bodyBt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Body Part"
+            android:backgroundTint="#BDBABA"
+            android:textColor="@color/black"
+            app:layout_constraintBaseline_toBottomOf="@+id/list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list" />
+
+        <Button
+            android:id="@+id/warningBt"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:text="Warning Symbol"
+            android:backgroundTint="#BDBABA"
+            android:textColor="@color/black"
+            app:layout_constraintBaseline_toBottomOf="@+id/list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list" />
+
+        <Button
+            android:id="@+id/engineBt"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Engine Part"
+            android:backgroundTint="#BDBABA"
+            android:textColor="@color/black"
+            app:layout_constraintBaseline_toBottomOf="@+id/list"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/list" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttons">
+
+        <ImageButton
+            android:id="@+id/addBt"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:background="#938F8F"
+            android:src="@drawable/ic_add"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

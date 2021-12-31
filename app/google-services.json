@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "891769224039",
+    "firebase_url": "https://mcasep-8a380-default-rtdb.firebaseio.com",
+    "project_id": "mcasep-8a380",
+    "storage_bucket": "mcasep-8a380.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:891769224039:android:af8920a3cac00143868dc2",
+        "android_client_info": {
+          "package_name": "com.example.mcasep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "891769224039-ttpiltn9kq61559dr76i73udav7e9rs9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpq8p8Rw069DfxFWY0aEu-I2Ts6PgQn0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "891769224039-ttpiltn9kq61559dr76i73udav7e9rs9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
