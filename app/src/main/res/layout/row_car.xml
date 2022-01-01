@@ -16,6 +16,7 @@
             android:id="@+id/registerTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             android:text="Registration Number: 13/12/2021"
             android:textColor="@color/black"
             android:textStyle="bold" />
@@ -28,14 +29,14 @@
             android:layout_marginTop="40px"
             android:text="Name: 11:15 am"
             android:textColor="@color/black"
-            android:textStyle="bold" />
+            android:textStyle="italic" />
 
         <TextView
             android:id="@+id/deleteTv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/nameTv"
-            android:layout_marginTop="13dp"
+            android:layout_below="@id/nextIv"
+            android:layout_marginTop="38dp"
             android:layout_toStartOf="@+id/nextIv"
             android:layout_toLeftOf="@+id/nextIv"
             android:background="@drawable/shape_rec5"

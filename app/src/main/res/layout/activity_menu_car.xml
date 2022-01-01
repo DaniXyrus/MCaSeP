@@ -30,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:hint="Name"
+        app:boxBackgroundColor="#E6EFF3"
         android:textColorHint="@color/black"
         app:boxCornerRadiusBottomEnd="100dp"
         app:boxCornerRadiusBottomStart="100dp"
@@ -43,6 +44,7 @@
             android:id="@+id/edtTxtName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
             tools:ignore="KeyboardInaccessibleWidget" />
@@ -57,6 +59,7 @@
         android:layout_marginBottom="8dp"
         android:hint="Brand"
         android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6EFF3"
         app:boxCornerRadiusBottomEnd="100dp"
         app:boxCornerRadiusBottomStart="100dp"
         app:boxCornerRadiusTopEnd="100dp"
@@ -69,6 +72,7 @@
             android:id="@+id/edtTxtBrand"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
             tools:ignore="KeyboardInaccessibleWidget" />
@@ -83,6 +87,7 @@
         android:layout_marginBottom="8dp"
         android:hint="Model"
         android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6EFF3"
         app:boxCornerRadiusBottomEnd="100dp"
         app:boxCornerRadiusBottomStart="100dp"
         app:boxCornerRadiusTopEnd="100dp"
@@ -95,6 +100,7 @@
             android:id="@+id/edtTxtModel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
             tools:ignore="KeyboardInaccessibleWidget" />
@@ -109,6 +115,7 @@
         android:layout_marginBottom="8dp"
         android:hint="Registration Number"
         android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6EFF3"
         app:boxCornerRadiusBottomEnd="100dp"
         app:boxCornerRadiusBottomStart="100dp"
         app:boxCornerRadiusTopEnd="100dp"
@@ -122,6 +129,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:ellipsize="end"
+            android:textStyle="bold"
             android:maxLines="1"
             tools:ignore="KeyboardInaccessibleWidget" />
 
@@ -132,6 +140,7 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="0dp"
         android:textColorHint="@color/black"
+        app:boxBackgroundColor="#E6EFF3"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
         android:hint="Year of manufacture"
@@ -147,6 +156,7 @@
             android:id="@+id/edtTxtYear"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textStyle="bold"
             android:ellipsize="end"
             android:maxLines="1"
             tools:ignore="KeyboardInaccessibleWidget" />
